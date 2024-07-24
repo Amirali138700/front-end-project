@@ -1,0 +1,465 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    font-family:"helveticaneue";
+    margin: 0px;
+}
+@font-face {
+    font-family: "helveticaneue";
+    src: url("../font/helveticaneue.woff2") format("woff2");
+}
+html {
+    overflow-x: hidden;
+}
+.container{
+    height: auto;
+    width: auto;
+}
+.header_wrapper{
+    display: flex;
+    text-wrap: nowrap;
+}
+.the_header{
+    display: flex;
+    height: 99px;
+    font-weight: 600;
+}
+.logo_img{
+    width: 110px;
+    height: 70px;
+    margin-top:20px ;
+}
+.head{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-right:20px ;
+}
+.header_a_tags{
+    display: flex;
+    gap: 500px;
+    align-items: inherit;
+}
+.giga{
+    display: flex;
+    width: fit-content;
+    gap: 150px;
+}
+.tag_list{
+    display: flex;
+    list-style-type:none;
+    gap: 40px;
+}
+
+
+.list_item{
+    position: relative;
+    text-decoration: none;
+    color: #1e3932;
+}
+
+
+.underline{
+    position: absolute;
+    width: 80px;
+    height: 8px;
+    background-color: #008248;
+    bottom: -40px;
+}
+.list_item:hover,.location_icon:hover{
+    color: #008248;
+    cursor: pointer;
+}
+.location_icon{
+    align-items: inherit;
+    text-wrap: nowrap;
+    width: 20px;
+    height: 20px ;
+    font-weight: 600 !important;
+}
+.header_bUttons{
+    display: flex;
+    gap: 20px;
+}
+button{
+    padding: 7px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.sign_in{
+    color: black;
+    background-color: #fff;
+}
+.sign_in:hover{
+    background-color: #d4e9e2;
+    cursor: pointer;
+}
+.sign_up{
+    background-color: black;
+    color: #fff;
+    
+}
+.sign_up:hover{
+    background-color: #fff;
+    color: black;
+    transition: all 250ms ease-in-out 100ms;
+    cursor: pointer;
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position:sticky;
+    height: 50px;
+    background-color: #1e3932;
+    color: #fff;
+    top: 0;
+    z-index: 11;
+}
+.star_bucks_reward{
+    width: 100%;
+    padding-top:16px ;
+    padding-left: 150px;
+}
+sup{
+    font-size: 6px;
+}
+.Advertise_reward{
+    height: 760px;
+    background-color:  #d4e9e2;
+    width: 100%;
+}
+.Advertise_text{
+    padding-top: 270px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+.Advertise_p{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.Advertise_tag{
+    color: black;
+}
+.Advertise_tag:hover{
+    font-size: 20px;
+    text-decoration: none;
+}
+.Advertise_button{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: fit-content;
+    height: 36px;
+    background-color: #008248;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.get_start_content{
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+.the_text{
+    font-size: 2.5rem;
+    font-weight: 600 ;
+}
+.paragraf{
+    font-size: 1.4rem;
+}
+.boxes{
+    line-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 20px 100px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: fit-content;
+    padding: 60px;
+}
+.box1 img{
+    width: 50px;
+    height: 50px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: fit-content;
+    padding: 60px;   
+}
+.box2 img{
+    width: 50px;
+    height: 50px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 345px;
+    height: fit-content;
+    padding: 60px;   
+}
+.box3 img{
+    width: 50px;
+    height: 50px;
+}
+.caption_title{
+    text-align: center;
+    text-wrap: nowrap;
+    padding-top: 30px;
+}
+.caption_paragraf{
+    align-items: center;
+    width: 345px;
+    padding-top:30px ;
+}
+.caption_paragraf a{
+    color: #008248;
+}
+.caption_paragraf a:hover{
+    text-decoration: none;
+}
+
+.product_title{
+    margin-top: 100px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+    background-color: #f1f8f6;
+}
+
+.product_rating {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f8f6;
+    gap:20px ;
+    
+    width: 100%;
+}
+
+.product_rating button{
+    font-size: 32px;
+    border: 0;
+    background-color: transparent;
+    position: relative;
+}
+.staricon{
+    color: yellowgreen;
+    width: 20px;
+    height: 20px;
+}
+.line{
+    position: absolute;
+    width: inherit;
+}
+.rating_underline{
+    position: absolute;
+    bottom: -25px;
+    left: -22px;
+    width: inherit;
+    height: 5px;
+    background-color:#008248;
+}
+.product_picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4e9e2;
+    box-shadow: inset 0 7px 9px -7px #00000024;
+}
+.product_picture img{
+    width: 30vw; 
+}
+.starbucks_ability{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+    margin-top: 100px;
+    margin-left:350px ;
+    width: 634px;
+    gap: 20px;
+}
+.ability_boxes{
+    display: flex;
+    gap: 100px;
+    max-width: 1200px;
+    padding-bottom: 6.4rem;
+}
+.ability_box1{
+    width:400px ;
+}
+.ability_box1 button{
+    text-wrap: nowrap;
+    max-width: 103px;
+    border:0;
+    padding-right:20px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    text-decoration: underline;
+    color: #008248;
+}
+.ability_box1 button:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.how_to_pay{
+    margin-top: 6.4rem;
+    background-color: #f2f0eb; 
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+}
+.how_title{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.8rem ;
+}
+.how_to-title{
+    width: 634px;
+    height: auto;
+    text-wrap: wrap;
+    text-align: center;
+}
+.how_to-title h2{
+    font-weight: 600 !important;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.how_toline{
+    margin-top: 2.5rem;
+    display: block;
+    background-color: #0000001a;
+    height: 1px;
+    width: 100%;
+}
+.pay_1{
+    display: flex;
+    gap: 80px;
+}
+.pay_2{
+    margin-top: 50px;
+    display: flex;
+    gap: 80px;
+}
+.grid_item1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid_item2{
+    display: flex;
+    gap: 20px;
+}
+.grid_item2_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 246px;
+}
+.grid_item2_txt p{
+    line-height: 24px;
+}
+.humburger{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+@media (max-width:371px) {
+    .boxes{
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+    .head{
+        display: none;
+    }
+    .humburger{
+        display: inline-block;
+    }
+    .the_text{
+        font-size: 30px;
+    }
+    .paragraf{
+        font-size: 18px;
+    }
+    .title_text{
+        font-size: 20px;
+    }
+    .how_title{
+        width: 100%;
+        padding-left: 50px;
+    }
+    .product_rating button{
+        display: flex;
+        font-size: 16px;
+    }
+    .product_rating{
+        gap: 3px;
+    }
+    .star_bucks_reward{
+        padding-left: 20px;
+    }
+    .product_pic_text{
+        font-size: 12px;
+    }
+    .product_pic_text p{
+        width: 250px !important;
+        text-wrap: wrap !important;
+        flex-wrap: wrap;
+    }
+    .ability_boxes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px ;
+    }
+    .ability_box1{
+        width: 100%;
+    }
+    .starbucks_ability{
+        margin-left: 0;
+        width: 100%;
+    }
+    .pay_container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .pay_1,.pay_2{
+        flex-direction: column;
+    }
+    .how_to_pay{
+        padding-left: 10px;
+    }
+    .logo_header{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo_img{
+        margin-top: 0;
+    }
+}
+
+
+
